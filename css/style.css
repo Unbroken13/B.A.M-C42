@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+    margin: 0%;
+}
+#hero p{
+    font-style: italic;
+    text-align: justify;
+}
+
+header{background-color: rgb(250, 250, 250);
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bolder;
+    font-size: 1.8em;
+    color: rgba(23, 70, 212, 0.757);
+    
+}
+
+header nav{
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    text-align: right;
+    
+    
+}
+header .container{
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+}
+
+header a{
+    font-weight: bold;
+    padding-top: 2px;
+    color: black;
+    font-size: 1.2em;
+}
+
+nav a{
+    padding: 10px;
+}
+nav a:hover {
+    color: rgba(11, 106, 214, 0.907);
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em ;}
+h3{font-size: 2em;}
+p{font-size: 1.5em;}
+
+
+a{
+    text-decoration: none;
+}
+
+button{
+    font-size: 1em;
+    color: white;
+    background-color: rgba(23, 70, 212, 0.757);
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    background-color: rgba(5, 37, 130, 0.757);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: url("/imagenes/hero-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200em;
+}
+
+#nuestros-cursos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url(/imagenes/ingles-145003.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: center;
+    background-size: 300em;
+    color: white;
+}
+
+#nuestros-cursos h2{
+color: white ;
+}
+ 
+#nuestros-cursos p{}
+
+#footer{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 50px;
+}
