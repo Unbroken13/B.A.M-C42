@@ -16,6 +16,8 @@ header{background-color: rgb(250, 250, 250);
 }
 
 header .logo{
+    background-color: aqua;  
+    display: inline;  
     margin: 0;
     padding: 25px 30px;
     font-weight: bolder;
