@@ -1,0 +1,302 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+    background-color: #226CE0;
+    color: white;
+}
+
+button:hover{
+    font-size: 1.5em;
+    background-color: #154ca4;
+}
+
+.color-acento{
+    color: #154ca4;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: #534B62;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #A499B3;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: #154ca4;
+    font-size: 1.2em;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: 
+        linear-gradient(
+                        0deg,
+                        rgba(0,0,0,0.5),
+                        rgba(0,0,0,0.5) 
+                       ),
+        url("hero-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#Sobre-mi{
+   
+}
+
+#Sobre-mi .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#habilidades{
+    text-align: center;
+    background-color: #D0BCD5;
+}
+
+#habilidades .container{
+    padding: 100px 0;
+}
+
+#habilidades p{
+    display: none;
+}
+
+#habilidades h2{
+    margin-top: 0;
+    font-size: 3em;
+    color: white;
+}
+
+#habilidades h3{
+    color: white;
+}
+
+
+#habilidades .cartas{
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.cartas:first-child{
+    background-image:
+        linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5) 
+                        ),
+            url("js.png");
+}
+
+.cartas:nth-child(2){
+    background-image:
+        linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5) 
+                        ),
+            url("python.png");
+
+}
+
+.cartas:nth-child(3){
+    background-image:
+        linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5) 
+                        ),
+            url("wordpress2.jpg");
+
+}
+
+
+
+#proyectos{
+    text-align: center;
+    background-color: #1B1725;
+}
+
+#proyectos .container{
+    padding: 100px 0;
+}
+
+#proyectos p{
+    display: none;
+    color: aquamarine;
+}
+
+#proyectos h2{
+    margin-top: 0;
+    font-size: 3em;
+    color: white;
+}
+
+#proyectos h3{
+    color: white;
+}
+
+#proyectos .carta{
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image:
+        linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5) 
+                        ),
+            url("wp.png");
+}
+
+.carta:nth-child(2){
+    background-image:
+        linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5) 
+                        ),
+            url("ingles.png");
+
+}
+
+.carta:nth-child(3){
+    background-image:
+        linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5) 
+                        ),
+            url("encriptador.png");
+
+}
+
+
+#contacto{
+    text-align: center;
+    padding: 10px 12px;
+    background-color: aqua;
+}
+
+form.contacto{
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#enviar{
+    width: 50%;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+    background-color: #226CE0;
+    color: white;
+}
+
+#enviar:hover{
+    font-size: 1.7em;
+    background-color: #154ca4;
+    cursor: pointer;
+}
+
+
+@media(min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}

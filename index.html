@@ -1,76 +1,96 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gabriel A. Orellana / Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Gabriel A. Orellana</p>
+            <nav>
+                <a href="#Sobre-mi">Sobre mí</a>
+                <a href="#habilidades">habilidades</a>
+                <a href="#proyectos">Proyectos</a>
+                <button href="#contacto">Contactame</button>
+            </nav>
+        </div>
+    </header>
 
-<html lang="es">
+    <section id="hero">
+        <h1> <span class="color-acento" >Portfolio</span>  <br> Gabriel A. Orellana</h1>
+    </section>
 
-    <head>
-        <meta charset="utf-8">
-        <title>Gabriel Orellana | Portafolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    <body>
-        <section id="hero">
-           <H1>Gabriel A. Orellana <br> <hr> desarrollador web</H1>
-        </section>   
+    <section id="Sobre-mi">
+        <div class="container">
+            <h1>Sobre <span class="color-acento">Mí</span> </h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, incidunt deserunt dolore, mollitia sit ab ut earum reiciendis harum hic consequuntur id voluptates consequatur similique iusto esse aliquid possimus vel.</p>
+        </div>
+        
+    </section>
 
-        <header>
-            <div class="navegador">
-                <p class="logo">Gabriel A. Orellana</p>  
-                <nav>
-                    <a href="#">Inicio</a>
-                    <a href="">Portfolio</a>
-                    <a href="">Skillset</a>
-                    <a href="">Experiencia</a>
-                    <a href="">Contacto</a>                   
-                </nav>
-            </div>
+
+    <section id="habilidades">
+        <div class="container">
+            <h2>Habilidades</h2>
+                <div class="habilidades">
+                    <div class="cartas">
+                        <h3>JavaScript</h3>
+                    </div>
+
+                    <div class="cartas">
+                        <h3>Python</h3>
+                    </div>
+
+                    <div class="cartas">
+                        <h3>WordPress</h3>
+                    </div>
+                </div>
             
-        </header>   
+        </div>
+    </section>
 
 
-        <section id="Portfolio">
-            <div class="container">                
-                <H2>Portfolio</H2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut officia dicta sunt perspiciatis, dignissimos pariatur animi eius maxime tempore accusantium est,</p>
-                <button>+info</button>
-            </div>
-        </section>
+    <section id="proyectos">
+        <div class="container">
+            <h2>Proyectos</h2>
+                <div class="proyectos"> 
+                    <div class="carta">
+                        <h3>Portfolio en WordPress</h3>
+                        <p>hola</p>
+                        <form action="https://developerit.tech/index.php/gabriel-a-orellana/">
 
-        <section id="Skillset">
-            <div class="container">
-                <h2>Skillset</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut officia dicta sunt perspiciatis, dignissimos pariatur animi eius maxime tempore accusantium est,</p>
-                <button>+info</button>
-            </div>
-        </section>
+                            <button>+info</button>
+                        </form> 
+                    </div>
+                    <div class="carta">
+                        <h3>Academia de Inglés</h3>
+                        <form action="https://gruposegundaetapa.github.io/Proyecto/">
+                            <button>+info</button>
+                        </form>
+                    </div>
+                    <div class="carta">
+                        <h3>Encriptador</h3>
+                        <button>+info</button>
+                    </div>
+                </div>    
+        </div>
+    </section>
 
-        <section id="Experiencia">
-            <div class="container">
-                <h2>Experiencia</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut officia dicta sunt perspiciatis, dignissimos pariatur animi eius maxime tempore accusantium est,</p>
-                <button>+info</button>
-            </div>
+    <section id="contacto">
+        <div class="container">
+            <form class="contacto">
+                <h2>contacto</h2>
+                <input type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                <input type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+                <input type="text" name="correo" id="correo" placeholder="Ingrese su correo">
+                <input type="text" name="numeros" id="numeros" placeholder="Ingrese su número">
+                <textarea name="mensajes" id="" cols="30" rows="10" placeholder="Ingrese su Mensaje"></textarea>
+                <input type="button" value="Enviar" id="enviar">
+            </form>
+        </div>
 
-        </section>
-
-        <section id="Contacto">
-            <div class="container">
-                <h2>Contacto</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut officia dicta sunt perspiciatis, dignissimos pariatur animi eius maxime tempore accusantium est,</p>
-                <button>Formulario de Contacto</button>
-            </div>
-            
-        </section>
-
-        <footer id="footer">
-            <div class="Container">
-                <p>copyright &copy; 2022 Más Facil   </p>
-
-            </div>
-        </footer>
-
-    </body>
-
-
-
+    </section>
+</body>
 </html>
